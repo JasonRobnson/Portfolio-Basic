@@ -11,6 +11,7 @@ header{
     background-color: yellow;
     min-height: 300px;
     width: 960px;
+    overflow: hidden;
 }
 #column1{
     background-color:blue;
@@ -27,6 +28,7 @@ header{
 footer{
     background-color: green;
     min-height: 60px;
+    padding: 1px;
     /* grid-row-start: 2;
     grid-row-end: 3;
     background-color: teal;
