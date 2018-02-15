@@ -1,0 +1,16 @@
+#container{
+    width: 990px;
+    margin: 10px auto;
+}
+header{
+    background-color: red;
+    min-height: 80px;
+}
+#main{
+    background-color: yellow;
+    min-height: 300px;
+}
+footer{
+    background-color: green;
+    min-height: 60px;
+}
