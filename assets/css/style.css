@@ -6,6 +6,7 @@ header{
     background-color: red;
     min-height: 80px;
     width: 960px;
+    margin-bottom: 40px;
 }
 #main{
     background-color: yellow;
@@ -34,4 +35,30 @@ footer{
     background-color: teal;
     width: 100%;
     text-align: center; */
+}
+/* controls the H1 name plate*/
+#hdh1{
+    width: 236px;
+    height: 80px;
+    background-color: gray;
+    margin-top: 40px;
+}
+/* controls the about, portfolio, contact area */
+#contacthead{
+    float: right;
+    background-color: rgb(30, 238, 48);
+    width: 270px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.flort{
+    float: right;
+}
+.flolft{
+    float: left;
+}
+
+li{
+    display: inline-block;
 }
