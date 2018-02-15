@@ -1,16 +1,32 @@
+body{
+    min-height: 100%;
+    margin-bottom: -100px;
+    }
+
+
+
 #container{
     width: 990px;
     margin: 10px auto;
+    min-height: 100%;
+    
+}
+.body:after{
+    content: "";
+    display: block;
+}
+.body:after, footer{
+    height: 100px;
 }
 header{
-    background-color: red;
+    background-color: white;
     min-height: 80px;
     width: 960px;
     margin-bottom: 40px;
 }
 #main{
     background-color: yellow;
-    min-height: 300px;
+    min-height: 100%;
     width: 960px;
     overflow: hidden;
 }
@@ -36,17 +52,27 @@ footer{
     width: 100%;
     text-align: center; */
 }
+/*controls the text Copyright in footer*/
+footer>p{
+    text-align: center;
+}
+#footerline{
+    min-height: 10px;
+    min-width: 100%;
+    background-color: orange;
+    margin-top: -10px;
+}
 /* controls the H1 name plate*/
 #hdh1{
     width: 236px;
-    height: 80px;
-    background-color: gray;
+    height: 40px;
+    background-color: white;
     margin-top: 40px;
 }
 /* controls the about, portfolio, contact area */
 #contacthead{
     float: right;
-    background-color: rgb(30, 238, 48);
+    background-color: white;
     width: 270px;
     height: 80px;
     margin-top: 60px;
