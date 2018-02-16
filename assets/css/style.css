@@ -1,47 +1,61 @@
+
+/* Governs the rules on the body */
 body{
     min-height: 100%;
     margin-bottom: -100px;
+    background: url(../images/shattered.png);
+    /* background-color: grey; */
+    
     }
 
 
-
+/* Controls the wrapper that surrounds all the content */
 #container{
     width: 990px;
     margin: 10px auto;
     min-height: 100%;
     
 }
+/* Part of the code for the sticky footer */
 .body:after{
     content: "";
     display: block;
 }
+/* Psuedo code for sticky footer, be sure to look up practices for psuedo code */
 .body:after, footer{
     height: 100px;
 }
+
+/* Controls the header div that holds H1 and UL */
 header{
     background-color: white;
     min-height: 80px;
     width: 960px;
     margin-bottom: 40px;
 }
+/* This is the wrapper that holds column1 and sidebar */
 #main{
     background-color: yellow;
     min-height: 100%;
     width: 960px;
     overflow: hidden;
 }
+/* The first div within the main  */
 #column1{
     background-color:blue;
     min-height: 50px;
     width: 650px;
     float: left;
 }
+/* The second div within the main that holds social media links and Contact header */
 #sidebar{
-    background-color: purple;
-    min-height: 50px;
+    background-color: greenyellow;
+    min-height: 150x;
     width: 270px;
     float: right; 
 }
+
+/* Governs the footer */
 footer{
     background-color: green;
     min-height: 60px;
@@ -56,6 +70,7 @@ footer{
 footer>p{
     text-align: center;
 }
+/* Controls the sliver of color on the sticky footer */
 #footerline{
     min-height: 10px;
     min-width: 100%;
@@ -77,14 +92,23 @@ footer>p{
     height: 80px;
     margin-top: 60px;
 }
-
+/* Class to float items right */
 .flort{
     float: right;
 }
+/* class to float items left */
 .flolft{
     float: left;
 }
-
+/* Controls all list */
 li{
     display: inline-block;
+}
+#backgroundimg{
+    background-image: url(assets/images/shattered.png);
+    background-repeat: repeat;
+}
+#imgin{
+    width: 263px;
+    height: 199px;
 }
