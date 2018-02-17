@@ -1,7 +1,7 @@
 
 /* Governs the rules on the body */
-body{
-    min-height: 100%;
+body, html{
+    height: 100%;
     margin-bottom: -100px;
     background: url(../images/doodles.png);
     /* background-color: grey; */
@@ -39,7 +39,7 @@ header{
 /* This is the wrapper that holds column1 and sidebar */
 #main{
     background-color: #ffffff;
-    min-height: 100%;
+    height: 100%;
     width: 960px;
     overflow-y: hidden;
 }
@@ -164,4 +164,8 @@ p{
 a{
     color:#777777;
     font-family: 'Roboto Condensed', sans-serif;
+}
+a:hover{
+    color: teal;
+}
 }
