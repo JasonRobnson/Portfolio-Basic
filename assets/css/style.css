@@ -133,6 +133,7 @@ li{
     width: 263px;
     height: 199px;
     margin: 3px;
+    padding: 25px;
 }
 #marginL{
     margin-left: 3px;
@@ -148,7 +149,7 @@ textarea, button{
     width: 181px;           
 }
 h1{
-    color: #4aaaa5;
+    color:  #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
 
@@ -168,4 +169,6 @@ a{
 a:hover{
     color: teal;
 }
+label{
+    margin-left: 10px;
 }
