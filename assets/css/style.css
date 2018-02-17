@@ -29,6 +29,9 @@ body{
 /* Controls the header div that holds H1 and UL */
 header{
     background-color: #ffffff;
+    border-bottom: outset;
+    border-width: .2px;
+    border-color: #cccccc;
     min-height: 102px;
     width: 960px;
     margin-bottom: 40px;
@@ -80,9 +83,10 @@ footer>p{
 /* controls the H1 name plate*/
 #hdh1{
     width: 236px;
-    height: 40px;
-    background-color: white;
+    height: 63px;
+    background-color: teal;
     margin-top: 40px;
+    margin-left: 10px;
 }
 /* controls the about, portfolio, contact area */
 #contacthead{
