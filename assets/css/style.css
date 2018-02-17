@@ -3,7 +3,7 @@
 body{
     min-height: 100%;
     margin-bottom: -100px;
-    background: url(../images/shattered.png);
+    background: url(../images/doodles.png);
     /* background-color: grey; */
     
     }
@@ -57,6 +57,7 @@ header{
     max-height: 200px;
     width: 270px;
     float: right; 
+    text-align: center;
 }
 
 /* Governs the footer */
@@ -159,5 +160,8 @@ h2,h3,h4{
 p{
     color:#777777;
     font-family: 'Roboto Condensed', sans-serif;
-    
+}
+a{
+    color:#777777;
+    font-family: 'Roboto Condensed', sans-serif;
 }
