@@ -28,28 +28,28 @@ body{
 
 /* Controls the header div that holds H1 and UL */
 header{
-    background-color: white;
-    min-height: 80px;
+    background-color: #ffffff;
+    min-height: 102px;
     width: 960px;
     margin-bottom: 40px;
 }
 /* This is the wrapper that holds column1 and sidebar */
 #main{
-    background-color: yellow;
+    background-color: #ffffff;
     min-height: 100%;
     width: 960px;
     overflow: hidden;
 }
 /* The first div within the main  */
 #column1{
-    background-color:blue;
+    background-color:#dddddd;
     min-height: 50px;
     width: 650px;
     float: left;
 }
 /* The second div within the main that holds social media links and Contact header */
 #sidebar{
-    background-color: greenyellow;
+    background-color: #ffffff;
     min-height: 150x;
     width: 270px;
     float: right; 
@@ -57,7 +57,7 @@ header{
 
 /* Governs the footer */
 footer{
-    background-color: green;
+    background-color: #666666;
     min-height: 60px;
     padding: 1px;
     /* grid-row-start: 2;
@@ -74,7 +74,7 @@ footer>p{
 #footerline{
     min-height: 10px;
     min-width: 100%;
-    background-color: orange;
+    background-color: #4aaaa5;
     margin-top: -10px;
 }
 /* controls the H1 name plate*/
@@ -87,7 +87,6 @@ footer>p{
 /* controls the about, portfolio, contact area */
 #contacthead{
     float: right;
-    background-color: white;
     width: 270px;
     height: 80px;
     margin-top: 60px;
@@ -140,5 +139,11 @@ textarea, button{
 }
 .indexpic{
     height: 136px;
-    width: 181px;
+    width: 181px;           
+}
+h1,h2,h3,h4{
+    color: #4aaaa5;
+}
+p{
+    color:#777777;
 }
